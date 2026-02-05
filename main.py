@@ -6,8 +6,8 @@ import datetime as dt
 import os
 
 # Use environment variables (set these in Railway Variables tab)
-API_TOKEN = os.getenv("TELEGRAM_API_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+API_TOKEN = "8581449368:AAGizloFpLC7-DSKQsgqGs7kIiE3a44Czok" # os.getenv("TELEGRAM_API_TOKEN")
+CHAT_ID = "7311904934" #os.getenv("TELEGRAM_CHAT_ID")
 
 def send_message(message):
     """Send a message to Telegram"""
